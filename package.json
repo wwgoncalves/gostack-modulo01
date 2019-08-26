@@ -5,7 +5,13 @@
   "repository": "https://github.com/wwgoncalves/gostack-modulo01.git",
   "author": "William",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
